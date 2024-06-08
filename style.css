@@ -1,31 +1,16 @@
 body {
-    background-color: white;
-    display: grid;
-    place-content: center;
+ 
 }
 
 .image-container {
-    height: fit-content;
-    width: fit-content;
-    border-radius: 20px;
-    /*merging point*/
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    place-items: center;
+
 }
 
 .image-container .bathroom-image {
-    width: 1000px;
-    /*merging point*/
-    grid-area: 2/2;
+ 
 }
 
 .image-container + img {
-    width: 900px;
-    /*shadow code*/
-    filter: drop-shadow(0px 2px 3px #333);
-    /*merging point*/
-    grid-area: 2/2;
+  
 }
 
