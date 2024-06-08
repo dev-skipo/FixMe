@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background: linear-gradient(135deg, #f06, #48f);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+ 
+.profile-card {
+    background-color:#f0f4f8;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 25px;
+    text-align: center;
+    max-width:max-content;
+    width: 100%;
+    margin: 20px;
+}
+
+.profile-photo {
+    background:url(https://scontent.fath6-1.fna.fbcdn.net/v/t39.30808-6/442475909_122148524330207748_8176917113648435952_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=65MDyG-MvuoQ7kNvgF2qt9g&_nc_ht=scontent.fath6-1.fna&oh=00_AYDaxHTlSiUib5ZNsIn2Tck974CRHoAjczjS_AmxXfFYnw&oe=666649A9);
+    height: 200px;
+    width: 200px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-link {
+    display: inline-block;
+    margin: 10px 0;
+    color: #0066cc;
+    text-decoration: none;
+    border: 2px solid #0066cc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.profile-link:hover {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.about-me {
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-style:oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hobbies {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies li {
+    display: inline-block;
+    background-color: #0781fa;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.hobbies li:hover {
+    background-color: #004080;
+}

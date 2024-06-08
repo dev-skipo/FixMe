@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.bathroom-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bathroom-image + img {
+    position: absolute;
+    width: 100%; /* Adjust the size of the faucet as needed */
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
